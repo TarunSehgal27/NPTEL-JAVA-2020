@@ -35,6 +35,8 @@ public class Pattern4 {
             System.out.println();
           k++;
         }
-      }
+      }System.out.println();
     }
+  
 }
+© 2020 GitHub, Inc.
