@@ -63,11 +63,14 @@ for(int i=0;i<5;i++)
 }
   
 }
-    for(int i=0;i<5;i++)
+int i,j;
+    for( i=0;i<5;i++)
      {
-     for(int j=4;j>=0;j--)
+     for( j=4;j>=0;j--)
       System.out.print(newmatrix[i][j]);
-     System.out.println();
+      if ( i != 4 )
+      { System.out.println();
+      }
      }
    } // The main() method ends here
 } // The main class ends here
