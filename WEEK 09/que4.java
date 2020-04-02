@@ -15,9 +15,11 @@ for(int i=0;i<5;i++)
     matrix[i][j] = chararray[j];
   }
 }
-for(int i=0; i<5;i++){
+int i;
+for( i=0; i<5;i++){
   for(int j=4;j>=0;j--)
   System.out.print(matrix[i][j]);
+  if ( i !=4 )
   System.out.println();
 }
    } // The main() method ends here
