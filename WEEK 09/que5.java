@@ -14,7 +14,8 @@ for(int i=0;i<5;i++)
     matrix[i][j] = chararray[j];
   }
 }
-for(int i=0; i<5;i++)
+int i;
+for( i=0; i<5;i++)
 {
   for(int j=0;j<5;j++)
   {
@@ -23,6 +24,7 @@ for(int i=0; i<5;i++)
     else 
       System.out.print('0');
   }
+  if ( i != 4)
   System.out.println();
 }
    } // The main() ends here
