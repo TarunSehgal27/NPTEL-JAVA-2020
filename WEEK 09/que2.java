@@ -24,7 +24,7 @@ for(int i=0;i<input.length();i++)
     ch =1;
   char out = gui_map(charArray[i]);
   numarray[i] = out;
-  if(out=='+' || out=='-' || out=='x' || out=='/')
+  if(out=='+' || out=='-' || out=='X' || out=='/')
   {
     flag = 1;
     op = out;
@@ -54,7 +54,7 @@ if(ch==1 && check==0){
     System.out.print(a+b);
   else if(op =='-')
      System.out.print(a-b);
-    else if(op == '*')
+    else if(op == 'X')
      System.out.print(a*b);
     else if(op == '/')
      System.out.print(a/b);
